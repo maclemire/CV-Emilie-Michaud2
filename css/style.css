@@ -1,0 +1,165 @@
+/* Tools
+=========================== */
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.gris {
+  color: grey;
+  font-weight: lighter;
+}
+
+.pad-l {
+  padding-left: 8%;
+}
+
+.pad-r {
+  padding-right: 3%;
+}
+
+.pad-t {
+  padding-top: 4%;
+}
+
+.pad-bot {
+  padding-bottom: 4%;
+}
+
+.mar-top {
+  margin-top: 5%;
+}
+
+.color {
+  color: #dae6f2;
+}
+
+/* Font-sizes
+========================== */
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  padding-top: 4%;
+  font-weight: bold;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 7%;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+.presentation_contact {
+  text-align: center;
+}
+
+.photo {
+  text-align: center;
+}
+
+.contact-barre_fr {
+  background-color: #dae6f2;
+  width: 65%;
+  border: 1px solid #dae6f2;
+  border-radius: 20px;
+  margin-left: 4.5%;
+}
+.contact-barre_en {
+  background-color: #dae6f2;
+  width: 50%;
+  border: 1px solid #dae6f2;
+  border-radius: 20px;
+  margin-left: 6%;
+}
+.contact-barre_it {
+  background-color: #dae6f2;
+  width: 35%;
+  border: 1px solid #dae6f2;
+  border-radius: 20px;
+  margin-left: 8%;
+}
+
+.grande-reso {
+  display: none;
+}
+
+/* Media queries
+========================================= */
+
+/* Extra-large devices */
+@media only screen and (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+
+  .grande-reso {
+    display: contents;
+  }
+
+  .bloc-left {
+    width: 40%;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .photo img {
+    width: 40%;
+    height: auto;
+    border-radius: 60%;
+  }
+  .pad-mail {
+    padding-right: 2%;
+  }
+
+  .interet-icones {
+    margin: 0;
+    padding-right: 7%;
+    font-size: 70px;
+    color: black;
+    opacity: 60%;
+  }
+
+  /* Bloc-right
+    ============================================ */
+  .bloc-right {
+    background-color: #dae6f2;
+    width: 60%;
+  }
+
+  .bloc-right h3 {
+    background-color: white;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    margin-top: 6%;
+  }
+}
